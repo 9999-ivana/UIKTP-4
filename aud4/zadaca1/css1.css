@@ -1,0 +1,32 @@
+input{
+    width: 150px;
+    margin-left: 10px;
+    display: inline-block;
+    align-items: center;
+
+
+}
+label{
+    display: inline-block;
+}
+
+input[type=button]
+{
+    margin-left: 200px;
+    width: 60px;
+}
+
+div{
+    margin-left: 50px;
+    align-items: center;
+
+
+}
+select{
+    width: 150px;
+}
+
+table, th,td{
+    border: 1px solid black
+}
+

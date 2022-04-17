@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css1.css">
+    <script src="js1.js"></script>
+
+</head>
+<body>
+<div id="1">
+   <div> <h1>Форма за внесување оцени</h1></div>
+    <div><label>Име: <input id="ime" type="text"></label></div>
+    <br>
+    <div><label>Презиме: <input id="prezime" type="text"></label></div>
+    <br>
+   <div><label>Индекс: <input id="indeks" type="text"></label></div>
+    <br>
+    <div><label>Предмет: <input id="predmet" type="text"></label></div>
+    <br>
+    <div><label>Оцена:</label>
+    <select id="ocena" onclick="reset()">
+        <option value="5">5 (пет)</option>
+        <option value="6">6 (шест)</option>
+        <option value="7">7 (седум)</option>
+        <option value="8">8 (осум)</option>
+        <option value="9">9 (девет)</option>
+        <option value="10">10 (десет)</option>
+    </select>
+    </div>
+    <br>
+        <input type="button" id="vnesi" value="Внеси" onclick="vnesi()">
+
+    <table id="vneseno">
+        <thead>
+            <th>Име</th>
+            <th>Презиме</th>
+            <th>Индекс</th>
+            <th>Предмет</th>
+            <th>Оцена</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+
+    </table>
+
+
+
+
+
+</div>
+</body>
+</html>
